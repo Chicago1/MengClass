@@ -1,0 +1,5 @@
+plot analysis
+
+Tell program if there is a dot in each place there is a dot
+Each cell in the matrix would correspond to a dot
+Map it to a gene map of the matrix
