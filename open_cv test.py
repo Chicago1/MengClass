@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('img_zoom.png')
+img = cv2.imread('oligoArray.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 gray = np.float32(gray)
