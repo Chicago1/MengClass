@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93c4c01e-df72-4ef8-9a52-7dc84ef2b6d3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Good link on getting opencv to work with swift.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/OpenCVWrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/OpenCVWrapper.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/PrefixHeader.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program.xcodeproj/project.xcworkspace/xcuserdata/Dmitry.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program.xcodeproj/xcuserdata/Dmitry.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Program.xcdatamodeld/.xccurrentversion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/Program.xcdatamodeld/Program.xcdatamodel/contents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/Program/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/ProgramTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/ProgramTests/ProgramTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/ProgramUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/ProgramUITests/ProgramUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Headers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/calib3d/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/affine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/bindings_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/bufferpool.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/check.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/core_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/block.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/border_interpolate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/color.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/common.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/datamov_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/color_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce_key_val.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/transform_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/type_traits_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/detail/vec_distance_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/dynamic_smem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/emulation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/filters.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/funcattrib.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/functional.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/limits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/saturate_cast.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/scan.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/simd_functions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/transform.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/type_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/utility.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/vec_distance.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/vec_math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/vec_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/warp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/warp_reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda/warp_shuffle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda_stream_accessor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cuda_types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cvdef.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cvstd.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/cvstd_wrapper.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/directx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/eigen.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/fast_math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_forward.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse_em.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/hal/intrin_vsx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/mat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/mat.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/matx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/neon_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/ocl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/ocl_genbase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/ocl_defs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/opencl_info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/opencl_svm.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdblas.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdfft.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_20.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_definitions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_hsa_extension.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/opengl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/operations.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/optim.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/ovx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/persistence.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/saturate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/softfloat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/sse_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/utility.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/utils/filesystem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/utils/logger.defines.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/utils/logger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/utils/trace.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/va_intel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/version.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/core/vsx_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/cvconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/all_layers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/dict.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/dnn.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/dnn.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/layer.details.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/layer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/shape_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/dnn/version.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/features2d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/features2d/features2d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/all_indices.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/any.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/autotuned_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/composite_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/defines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/dist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/dummy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/dynamic_bitset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/flann_base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/general.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/ground_truth.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/hierarchical_clustering_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/index_testing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/kdtree_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/kdtree_single_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/kmeans_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/linear_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/lsh_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/lsh_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/miniflann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/nn_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/object_factory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/params.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/random.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/result_set.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/sampling.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/saving.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/simplex_downhill.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/flann/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/cpu/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/cpu/gcpukernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/cpu/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/fluid/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/fluid/gfluidbuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/fluid/gfluidkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/fluid/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/garg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/garray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gcall.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gcommon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gcompiled.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gcompoundkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gcomputation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gmat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gmetaarg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gproto.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gpu/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gpu/ggpukernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gpu/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gscalar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gtype_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/gtyped.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/ocl/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/ocl/goclkernel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/ocl/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/opencv_includes.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/operators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/assert.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/convert.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/cvdefs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/exports.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/mat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/saturate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/scalar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/own/types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/any.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/compiler_hints.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/optional.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/throw.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/util.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/gapi/util/variant.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/highgui/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/highgui/highgui_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgcodecs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgcodecs/ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/detail/gcgraph.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/imgproc/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/ml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/ml/ml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/ml/ml.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/objdetect/detection_based_tracker.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/objdetect/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/opencv.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/opencv_modules.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/photo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/photo/cuda.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/photo/photo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/stitching/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/video/background_segm.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/video/tracking.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/video/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio/cap_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio/registry.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/videoio/videoio_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Headers/world.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/Resources/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/A/opencv2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/Versions/Current" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program/opencv2.framework/opencv2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/OpenCVWrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/OpenCVWrapper.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/PrefixHeader.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC.xcodeproj/project.xcworkspace/xcuserdata/Dmitry.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC.xcodeproj/xcuserdata/Dmitry.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/AppDelegate.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/ProgramObjC.xcdatamodeld/.xccurrentversion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/ProgramObjC.xcdatamodeld/ProgramObjC.xcdatamodel/contents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/ViewController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjC/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjCTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjCTests/ProgramObjCTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjCUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramObjC/ProgramObjCUITests/ProgramObjCUITests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/better_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oligoArray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open_cv_blobexample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_inverting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_cv test.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_cv test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="open_cv_blobexample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/open_cv_blobexample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+              <folding>
+                <element signature="e#115#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_inverting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_inverting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/open_cv test2.py" />
+        <option value="$PROJECT_DIR$/testfile.py" />
+        <option value="$PROJECT_DIR$/open_cv test.py" />
+        <option value="$PROJECT_DIR$/test_inverting.py" />
+        <option value="$PROJECT_DIR$/open_cv_blobexample.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MengClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MengClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.open_cv_blobexample">
+    <configuration name="open_cv test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Meng Class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_cv test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="open_cv test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Meng Class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_cv test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="open_cv_blobexample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Meng Class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_cv_blobexample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_inverting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Meng Class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_inverting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.open_cv test" />
+      <item itemvalue="Python.open_cv test2" />
+      <item itemvalue="Python.open_cv_blobexample" />
+      <item itemvalue="Python.test_inverting" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.open_cv_blobexample" />
+        <item itemvalue="Python.test_inverting" />
+        <item itemvalue="Python.open_cv test" />
+        <item itemvalue="Python.open_cv test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93c4c01e-df72-4ef8-9a52-7dc84ef2b6d3" name="Default" comment="" />
+      <created>1549158358316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549158358316</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First version">
+      <created>1549417500060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549417500060</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First version">
+      <created>1549418879571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549418879571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First version">
+      <created>1549419036541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549419036541</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First version">
+      <created>1549419176144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549419176144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First version">
+      <created>1549475249291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549475249292</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First version">
+      <created>1549475258498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549475258498</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="23" width="1280" height="773" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2795858" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988167" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="First version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/open_cv test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_inverting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv_blobexample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#115#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_inverting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv_blobexample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_inverting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_cv_blobexample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
