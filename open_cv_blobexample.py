@@ -9,7 +9,7 @@ import numpy as np
 import operator
 
 # Read image
-im = cv2.imread("better_test_small.png", cv2.IMREAD_GRAYSCALE)
+im = cv2.imread("better_test.png", cv2.IMREAD_GRAYSCALE)
 
 im = cv2.bitwise_not(im) #inverts the colors
 
@@ -61,6 +61,9 @@ im_with_keypoints = cv2.drawKeypoints(im, keypoints, np.array([]), (0, 0, 255),
                                       cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 
 
+print(keypoints)
+
+
 xlist=[]
 ylist=[]
 
@@ -83,7 +86,7 @@ for k in range(len(zipped)):
 
 
 
-
+#List of coordinates
 print((zipped))
 
 np.savetxt('data.csv', (xlist, ylist), delimiter=',')
