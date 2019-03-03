@@ -250,16 +250,16 @@ circles[-1][1] = circles[-2][1]
 
 for i in range(len(circles)):
     for j in range(len(firstRow)):
-        print("firstrow j", firstRow[j][0])
-        print("circles i", circles[i][0])
+        #print("firstrow j", firstRow[j][0])
+        #print("circles i", circles[i][0])
         if int(abs(  int(firstRow[j][0]) - int(circles[i][0]) )) < (5):
             circles[i][0] = j+1
 
 
 circles_empty = np.zeros((64,3))
 
-
-#print(circles_empty)
+print(circles)
+#print(circles[0][0:2])
 
 
 
@@ -272,7 +272,20 @@ circles_empty = np.zeros((64,3))
 #     for j in range(1,columnLength+1):
 
 
+
+for i in range(1,4):
+    for j in range(1,65):
+        for l in range(len(circles)):
+            if circles[l][0] == [i]:
+                if circles[l][1] == j:
+                    #print(i,j)
+                    circles_empty[j-1][i-1] = circles[l][2]
+
+
+
 print(circles_empty)
+
+print(circles_empty[0][0])
 
 #x range is from row length of csv
 #y rang is column length of csv
